@@ -1,0 +1,257 @@
+<html>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #0483aa;
+      color: white;
+    }
+
+    .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background: rgb(219, 219, 219);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(212, 212, 212);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .bg-image {
+        
+        background-image: url("nature.png");
+        
+        
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        
+        
+        height: 100%; 
+        
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      
+      .bg-text {
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+      <title>MeseriasiiCluj.Ro # Contacteaza-ne</title>
+    <head>
+      <div class="topnav">
+        <a href="index.html">HOME</a>
+        <a href="proiecte.html">PROIECTE</a>
+        <a href="chat.html">CHAT</a>
+        <a href="feed.html">FEED</a>
+        <a href="reviews.html">REVIEWS</a>
+        <a class="active" href="contact.html">CONTACT</a>
+      </div>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script defer="" referrerpolicy="origin" src="/cdn-cgi/zaraz/s.js?z=JTdCJTIyZXhlY3V0ZWQlMjIlM0ElNUIlNUQlMkMlMjJ0JTIyJTNBJTIyQ29udGFjdCUyMEZvcm0lMjAwMSUyMiUyQyUyMnglMjIlM0EwLjYwMzg4NzY3NTg4NzU5NTMlMkMlMjJ3JTIyJTNBMTUzNiUyQyUyMmglMjIlM0E4NjQlMkMlMjJqJTIyJTNBNzU0JTJDJTIyZSUyMiUzQTE0OTAlMkMlMjJsJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZwcmV2aWV3LmNvbG9ybGliLmNvbSUyRnRoZW1lJTJGYm9vdHN0cmFwJTJGY29udGFjdC1mb3JtLTAxJTJGJTIyJTJDJTIyciUyMiUzQSUyMiUyMiUyQyUyMmslMjIlM0EyNCUyQyUyMm4lMjIlM0ElMjJVVEYtOCUyMiUyQyUyMm8lMjIlM0E0ODAlMkMlMjJxJTIyJTNBJTVCJTVEJTdE"></script><script nonce="80c0113f-bc42-46b4-ac80-d22443a129ef">(function(w,d){!function(e,f,g,h){e.zarazData=e.zarazData||{};e.zarazData.executed=[];e.zaraz={deferred:[],listeners:[]};e.zaraz.q=[];e.zaraz._f=function(i){return function(){var j=Array.prototype.slice.call(arguments);e.zaraz.q.push({m:i,a:j})}};for(const k of["track","set","debug"])e.zaraz[k]=e.zaraz._f(k);e.zaraz.init=()=>{var l=f.getElementsByTagName(h)[0],m=f.createElement(h),n=f.getElementsByTagName("title")[0];n&&(e.zarazData.t=f.getElementsByTagName("title")[0].text);e.zarazData.x=Math.random();e.zarazData.w=e.screen.width;e.zarazData.h=e.screen.height;e.zarazData.j=e.innerHeight;e.zarazData.e=e.innerWidth;e.zarazData.l=e.location.href;e.zarazData.r=f.referrer;e.zarazData.k=e.screen.colorDepth;e.zarazData.n=f.characterSet;e.zarazData.o=(new Date).getTimezoneOffset();if(e.dataLayer)for(const r of Object.entries(Object.entries(dataLayer).reduce(((s,t)=>({...s[1],...t[1]})))))zaraz.set(r[0],r[1],{scope:"page"});e.zarazData.q=[];for(;e.zaraz.q.length;){const u=e.zaraz.q.shift();e.zarazData.q.push(u)}m.defer=!0;for(const v of[localStorage,sessionStorage])Object.keys(v||{}).filter((x=>x.startsWith("_zaraz_"))).forEach((w=>{try{e.zarazData["z_"+w.slice(7)]=JSON.parse(v.getItem(w))}catch{e.zarazData["z_"+w.slice(7)]=v.getItem(w)}}));m.referrerPolicy="origin";m.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(e.zarazData)));l.parentNode.insertBefore(m,l)};["complete","interactive"].includes(f.readyState)?zaraz.init():e.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,0,"script");})(window,document);</script>
+    </head>
+    <body>
+      <div class="bg-image">
+     </div>
+        <div class="bg-text">
+    <section class="ftco-section">
+      <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-md-6 text-center mb-5">
+      </div>
+      </div>
+      <div class="row justify-content-center">
+      <div class="col-lg-10 col-md-12">
+      <div class="wrapper">
+      <div class="row no-gutters">
+      <div class="col-md-7 d-flex align-items-stretch">
+      <div class="contact-wrap w-100 p-md-5 p-4">
+      <h3 class="mb-4">Get in touch</h3>
+      <div id="form-message-warning" class="mb-4"></div>
+      <div id="form-message-success" class="mb-4">
+      Your message was sent, thank you!
+      </div>
+      <form method="POST" id="contactForm" name="contactForm" novalidate="novalidate">
+      <div class="row">
+      <div class="col-md-6">
+      <div class="form-group">
+      <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+      </div>
+      </div>
+      <div class="col-md-6">
+      <div class="form-group">
+      <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+      </div>
+      </div>
+      <div class="col-md-12">
+      <div class="form-group">
+      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+      </div>
+      </div>
+      <div class="col-md-12">
+      <div class="form-group">
+      <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+      </div>
+      </div>
+      <div class="col-md-12">
+      <div class="form-group">
+      <input type="submit" value="Send Message" class="btn btn-primary">
+      <div class="submitting"></div>
+      </div>
+      </div>
+      </div>
+      </form>
+      </div>
+      </div>
+      <div class="col-md-5 d-flex align-items-stretch">
+      <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+      <h3 class="mb-4 mt-md-4">Contacteaza-ne
+        </h3>
+      <div class="dbox w-100 d-flex align-items-start">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-map-marker"></span>
+      </div>
+      <div class="text pl-3">
+      <p><span>Location:</span> Romania, Cluj, Floresti</p>
+      </div>
+      </div>
+      <div class="dbox w-100 d-flex align-items-center">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-phone"></span>
+      </div>
+      <div class="text pl-3">
+      <p><span>Phone:</span> <a href="tel://1234567920">+40 758 677 113</a></p>
+      </div>
+      </div>
+      <div class="dbox w-100 d-flex align-items-center">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-paper-plane"></span>
+      </div>
+      <div class="text pl-3">
+      <p><span>Email:</span> <a href="mailto:info@yoursite.com">contact@meseriasiicluj.ro</a></p>
+      </div>
+      </div>
+      <div class="dbox w-100 d-flex align-items-center">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-globe"></span>
+      </div>
+      <div class="text pl-3">
+      <p><span>Website:</span> <a href="#">meseriasiicluj.ro</a></p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/main.js"></script>
+      <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;76d9a75269875b44&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2022.11.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+      
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-80939904-9575-4052-9e2b-e43665d5e1ec"></div>
+      </body>
+</html>
