@@ -13,14 +13,16 @@ A responsive and modern website built for a professional construction firm using
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
+- HTML5 – Semantic markup for structure
+- CSS3 – Custom animations, gradients, text effects, responsive layouts
+- JavaScript (ES6) – DOM manipulation, animation control
+- Google Fonts – Custom typography
+- Font Awesome – Icon support (if you're using it elsewhere; you can remove if not)
+- Elfsight Widgets – Embedded interactive widgets (via external scripts)
+- Responsive Design – Mobile-first layout and adaptive components
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](https://fontawesome.com/)
-
+Custom CSS Keyframe Animations – Text shine, glowing buttons, image carousel
 ---
 
 ## 🚀 Getting Started
