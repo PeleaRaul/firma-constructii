@@ -45,6 +45,9 @@ You are not allowed to:
 
 If you wish to use this template for commercial work or require a custom version, please contact me.
 
-### 🧾 License
-This project is licensed under the MIT License Model (MODIFIED). All rights reserved.
-If you need explicit permissions, please reach out directly.
+## 🧾 License
+
+This project is licensed for **personal and non-commercial use only**.  
+You may not use, modify, or distribute it without explicit permission.
+
+See the [LICENSE](LICENSE) file for full terms.
